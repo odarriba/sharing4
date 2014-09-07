@@ -5,6 +5,8 @@ Sharing4 is a content sharing hub written in PHP.
 
 It allows to the registered users to link their Twitter and Facebook accounts and share URL, photos and videos of the Internet in ther social accounts, creating a short URL for each content.
 
+The project includes full multi-user support (sign up, login, logout, delete accounts, forgotten password recovery, e-mail confirmation, etc).
+
 Install
 -------
 
