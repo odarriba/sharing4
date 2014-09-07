@@ -1,0 +1,28 @@
+.admin-superior
+{
+	margin-bottom: 15px;
+	overflow: auto;
+}
+
+table tbody tr td .admin-sin-elementos
+{
+	padding: 20px;
+}
+
+table tbody tr td .servicio_tw:hover
+{
+	color: #08c !important;
+	text-decoration: none !important;
+}
+
+table tbody tr td .servicio_fb
+{
+	color: #3B5998 !important;
+	text-decoration: none !important;
+}
+
+table tbody tr td .servicio_fb:hover
+{
+	color: #3B5998 !important;
+	text-decoration: none !important;
+}

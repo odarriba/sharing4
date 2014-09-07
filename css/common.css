@@ -1,0 +1,101 @@
+body {
+	padding-bottom: 40px;
+	color: #5a5a5a;
+}
+
+.container{
+	z-index: 10;
+}
+
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 11;
+	margin-top: 20px;
+	margin-bottom: -90px;
+}
+
+.navbar .navbar-inner {
+	border: 0;
+	-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+	box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+.navbar .brand {
+	padding-top: 12px; 
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+.navbar .nav > li > a {
+	padding: 15px 20px;
+}
+
+.navbar .btn-navbar {
+	margin-top: 10px;
+}
+
+footer{
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid #EEE;
+}
+
+.central {
+	padding-top: 90px; 
+	overflow: hidden;
+}
+
+
+.inicio-sesion{
+	width: 260px;
+	padding: 5px 20px;
+}
+
+.inicio-sesion form, .registro form{
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+.inicio-sesion form legend{
+	margin-bottom: 15px;
+}
+
+.iniciar-sesion form .divider{
+	height: 1px
+}
+
+.panel-menu
+{
+	padding: 12px 10px;
+}
+
+.panel-menu a
+{
+	padding: 3px 8px !important;
+}
+
+
+@media (max-width: 979px) {
+	.container.navbar-wrapper {
+		margin-bottom: 0;
+		width: auto;
+	}
+	.navbar-inner {
+		border-radius: 0;
+		margin: -20px 0;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	.navbar-inner {
+		margin: -20px;
+	}
+
+}

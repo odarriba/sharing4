@@ -1,0 +1,143 @@
+.panel-superior
+{
+	background-color:#027EAF;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 470px;
+	z-index: -1;
+}
+
+.registro{
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.registro form legend{
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.consejos .span4 {
+	text-align: center;
+}
+.consejos h2, .consejos h3 {
+	font-weight: normal;
+}
+.consejos .span4 p {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: justify;
+}
+
+.divisor-principal {
+	margin: 30px 0; 
+}
+
+.titular{
+	padding-top: 40px;
+	color: #FFF;
+}
+
+.titular .muted
+{
+	color: #DDD;
+}
+
+.titular-cabecera {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+.menu-principal
+{
+	height: 30px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.menu-principal a,
+.menu-principal a:hover
+{
+	color: #fff;
+}
+
+.menu-principal a:hover
+{
+	text-decoration: none;
+}
+
+.menu-principal .img-twitter-logo
+{
+	margin-top:-23px;
+	width: 75px;
+	margin-right: 20px;
+}
+
+@media (max-width: 979px) {
+
+	.carousel .item {
+		height: 500px;
+	}
+	.carousel img {
+		width: auto;
+		height: 500px;
+	}
+
+	.featurette {
+		height: auto;
+		padding: 0;
+	}
+	.featurette-image.pull-left,
+	.featurette-image.pull-right {
+		display: block;
+		float: none;
+		max-width: 40%;
+		margin: 0 auto 20px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.carousel {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.carousel .container {
+
+	}
+	.carousel .item {
+		height: 300px;
+	}
+	.carousel img {
+		height: 300px;
+	}
+	.carousel-caption {
+		width: 65%;
+		padding: 0 70px;
+		margin-top: 100px;
+	}
+	.carousel-caption h1 {
+		font-size: 30px;
+	}
+	.carousel-caption .lead,
+	.carousel-caption .btn {
+		font-size: 18px;
+	}
+
+	.marketing .span4 + .span4 {
+		margin-top: 40px;
+	}
+
+	.featurette-heading {
+		font-size: 30px;
+	}
+	.featurette .lead {
+		font-size: 18px;
+		line-height: 1.5;
+	}
+}

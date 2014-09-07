@@ -1,0 +1,27 @@
+.registrar-centro
+{
+	width:500px;
+	margin: 10px auto;
+	float: none;
+	padding: 20px;
+}
+
+.registrar-centro-completado
+{
+	width:520px;
+	margin: 10px auto;
+	float: none;
+	padding: 20px;
+}
+
+.registrar-centro form select
+{
+	width: 90%;
+}
+
+.registrar-completado
+{
+	width: 520px !important;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}

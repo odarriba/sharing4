@@ -1,0 +1,24 @@
+.registro-centro
+{
+	width:650px;
+	margin: 0 auto;
+	float: none;
+}
+
+.registro-centro .registro-contenedor
+{
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.registro-centro .registro-contenedor form input
+{
+	width: 80%;
+}
+
+.registro-completado
+{
+	width: 520px !important;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}

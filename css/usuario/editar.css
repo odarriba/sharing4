@@ -1,0 +1,27 @@
+.editar-centro
+{
+	width:650px;
+	margin: 10px auto;
+	float: none;
+	padding: 20px;
+}
+
+.editar-centro-completado
+{
+	width:520px;
+	margin: 10px auto;
+	float: none;
+	padding: 20px;
+}
+
+.editar-centro form input
+{
+	width: 80%;
+}
+
+.editar-completado
+{
+	width: 520px !important;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}

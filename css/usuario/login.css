@@ -1,0 +1,27 @@
+.login-centro
+{
+	width:520px;
+	margin: 0 auto;
+	float: none;
+}
+
+.login-centro .login-contenedor
+{
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.login-centro .login-contenedor form input
+{
+	line-height: 1.6em;
+	font-size: 1.6em;
+	height: auto !important;
+}
+
+.login-centro .login-contenedor form input[type="file"]
+{
+	line-height: 1em;
+	font-size: 16px;
+	height: 40px !important;
+
+}

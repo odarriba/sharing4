@@ -1,0 +1,234 @@
+.panel-nuevo
+{
+	padding: 20px;
+	max-height: 44px;
+	overflow: hidden;
+}
+
+.panel-nuevo form
+{
+	margin: 0px;
+}
+
+.panel-nuevo .ajax-loader
+{
+	text-align: center;
+	font-size: 2.3em;
+	vertical-align: middle;
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.panel-nuevo .ajax-loader-visible
+{
+	max-height: 150px !important;
+	padding-top: 10px;
+}
+
+.panel-nuevo .ajax-loader img
+{
+	margin-top: -10px;
+}
+
+.panel-nuevo form .url-contenido input
+{
+	font-size: 2em;
+	line-height: 1.2em;
+	height: auto !important;
+	margin: 0px;
+}
+
+.panel-nuevo form .url-contenido
+{
+	margin-bottom: 20px;
+}
+
+.panel-nuevo form .titulo-contenido,
+.panel-nuevo form .seguridad-contenido
+{
+	margin-top: 20px;
+}
+
+.panel-nuevo form .password-contenido
+{
+	margin-top: 10px;
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.panel-nuevo form .titulo-contenido .label-titulo,
+.panel-nuevo form .seguridad-contenido .label-seguridad,
+.panel-nuevo form .password-contenido .label-password
+{
+	margin-top: 7px;
+	font-size: 1.2em;
+}
+
+.panel-nuevo form .titulo-contenido input,
+.panel-nuevo form .password-contenido input
+{
+	font-size: 1.3em;
+	line-height: 1.2em;
+	height: auto !important;
+	margin: 0px;
+}
+
+.panel-nuevo form .seguridad-contenido select
+{
+	margin-top: 1px;
+}
+
+.panel-nuevo form .seguridad-contenido .icono-ayuda
+{
+	font-size: 1.5em;
+	margin-left: 5px;
+}
+
+.panel-nuevo form .seguridad-contenido .icono-ayuda:hover
+{
+	text-decoration: none;
+	cursor: default;
+}
+
+.panel-nuevo form .seguridad-contenido .popover
+{
+	width: 350px;
+}
+
+.panel-sin-contenidos
+{
+	padding: 20px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.contenido-elemento
+{
+	padding: 15px;
+	padding-top: 10px;
+	overflow: hidden;
+	font-size: 1.2em;
+	margin-bottom:10px;
+}
+
+.contenido-elemento:hover
+{
+	border-color: #08c !important;
+}
+
+.contenido-elemento .info
+{
+	max-width: 80%;
+}
+
+.contenido-elemento .label
+{
+	font-weight: normal;
+	font-size: 0.9em;
+	line-height: 1.15em;
+	padding: 3px 8px;
+	margin-top: 10px;
+}
+
+.contenido-elemento .fila-botones
+{
+	text-align: right;
+	margin-bottom: 4px;
+	overflow: hidden;
+}
+
+.contenido-elemento .fila-botones-ultima
+{
+	text-align: right;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
+.contenido-elemento .fila-botones a,
+.contenido-elemento .fila-botones-ultima a
+{
+	float: right;
+	margin-left: 5px;
+}
+
+.barra-superior
+{
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+
+.compartir-sin-auths
+{
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+.compartir-lista-cuentas,
+.compartir-lista-seleccionadas
+{
+	width: 48%;
+}
+
+.compartir-lista-cuentas legend,
+.compartir-lista-seleccionadas legend
+{
+	margin: 0;
+	margin-bottom: 5px;
+	line-height: 25px;
+}
+
+.compartir-lista-cuentas .lista-cuentas
+{
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 10px;
+
+	height: 401px;
+
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.compartir-lista-seleccionadas .lista-seleccionadas
+{
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-top: 0px;
+
+	height: 300px;
+
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.compartir-lista-cuentas .lista-cuentas .cuenta-externa,
+.compartir-lista-seleccionadas .lista-seleccionadas .cuenta-externa
+{
+	padding: 20px 10px;
+	margin: 5px;
+	border: 1px solid #DDD;
+	border-radius: 8px;
+
+	font-size: 1.4em;
+	list-style: none;
+}
+
+.compartir-lista-seleccionadas .lista-seleccionadas .informacion-lista
+{
+	font-size: 0.9em;
+	margin-top: 0px;
+	margin-bottom:10px;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #DDD;
+}
+
+.servicio-tw
+{
+	color: #08c !important;
+}
+
+.servicio-fb
+{
+	color: #3B5998 !important;
+}
